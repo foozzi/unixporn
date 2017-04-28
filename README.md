@@ -1,4 +1,4 @@
-Unixporn β [![](http://clipart-finder.com/data/mini/Starbucks_Tux.png =80x)]()
+Unixporn β [![](http://i.imgur.com/qzi2YTA.png)]()
 ===================
 
 Hey! This is porn for *nix geeks.
