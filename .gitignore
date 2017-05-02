@@ -1,4 +1,7 @@
 venv/
 static/gen/
 unixporn.kdev4
-__pycache__/
+__pycache__/*
+__pycache__
+database.db
+

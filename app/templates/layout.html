@@ -9,9 +9,9 @@
 
 <title>uniporn - unix* screenshot gallery</title>
 
-{% assets "main_css" %}
-    <link href="{{ ASSET_URL }}" rel="stylesheet">
-{% endassets %}
+<link href="{{ url_for('static', filename='css/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+
 
 </head>
 
@@ -78,6 +78,4 @@ them off to some social networking sites or contact information.</p>
 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 
-{% assets "main_js" %}
-    <script src="{{ ASSET_URL }}"></script>
-{% endassets %}
+<script src="{{ url_for('static', filename='js/bootstrap/bootstrap.min.js') }}"></script>
